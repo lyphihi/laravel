@@ -12,4 +12,11 @@ class ExampleController extends Controller
     public function goodbye() {
         return 'Tam biet';
     }
+    public function homnay() {
+        $ketqua = 5;
+        $hoten = 'lyphihi';
+        return view('example.ngayhomnay')
+            ->with('ketqua',$ketqua)
+            ->with('hoten',$hoten);
+    }
 }

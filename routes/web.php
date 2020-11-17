@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('xin-chao','ExampleController@hello');
 Route::get('tam-biet','ExampleController@goodbye');
+Route::get('ngay','ExampleController@homnay');
 
